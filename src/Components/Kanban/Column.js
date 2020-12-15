@@ -8,14 +8,18 @@ import './Column.css'
 
 
 class Column extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     onClickDeleteButton = () => {
         this.props.deleteColumn(this.props.column.id);
     }
 
     render () {
         return (
-            <div className='col'>
-                <div className='col-header'>
+            <div className='column'>
+                <div className='column-header'>
                     {this.props.column.name}
                     <input type='button' value='Delete column' onClick={this.onClickDeleteButton}/>
                 </div>

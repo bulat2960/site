@@ -30,7 +30,7 @@ class AddCardButton extends Component
 
     render() {
         return (
-            <div className='card_empty'>
+            <div className='card-empty'>
                 {
                     this.state.editMode ? (
                         <div className='card'>
@@ -40,7 +40,7 @@ class AddCardButton extends Component
                             <input type='button' value='Cancel' onClick={this.endEditMode}/>
                         </div>
                     ) : (
-                        <div className='card_button' onClick={this.beginEditMode}>
+                        <div className='card-button' onClick={this.beginEditMode}>
                             Add Card...
                         </div>
                     )

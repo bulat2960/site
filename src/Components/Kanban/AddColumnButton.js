@@ -31,7 +31,7 @@ class AddColumnButton extends Component {
 
     render() {
         return (
-            <div className='col_empty'>
+            <div className='column-empty'>
                 {
                     this.state.editMode ? (
                         <div className='card'>
@@ -41,7 +41,7 @@ class AddColumnButton extends Component {
                             <input type='button' value='Cancel' onClick={this.endEditMode}/>
                         </div>
                     ) : (
-                        <div className='card_button' onClick={this.beginEditMode}>
+                        <div className='column-button' onClick={this.beginEditMode}>
                             Add Column...
                         </div>
                     )

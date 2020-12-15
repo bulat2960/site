@@ -1,4 +1,4 @@
-.col {
+.column {
     flex-grow: 1;
     width: 1px;
     background-color: cornflowerblue;
@@ -7,14 +7,21 @@
     flex-direction: column;
 }
 
-.col-header {
+.column-header {
     background-color: lightgray;
     text-align: center;
     font-weight: bold;
     padding: 20px;
 }
 
-.col_empty {
+.column-button {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .25);
+    border-radius: 10px;
+}
+
+.column-empty {
     /* flex-grow: 1; */
     width: 200px;
     margin: 20px;
