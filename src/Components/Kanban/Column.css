@@ -1,0 +1,23 @@
+.col {
+    flex-grow: 1;
+    width: 1px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-header {
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.col_empty {
+    /* flex-grow: 1; */
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
